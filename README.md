@@ -1,2 +1,13 @@
 # ALSA-Demo
 ALSA is the Advanced Linux Sound Architecture, providing audio and MIDI functionality to the Linux operating system. Demos in this repository is showed the basic usage of ALSA.
+## Usage
+cd demo forld, use cmake to produce Makefile, and then use make commond to compile and build the target.  
+
+## Content
+### playfile
+Read a pcm/wav file, and send to data to PCM device for playback.  
+Using the cmd below to run the demo.  
+```
+./playpcm test.wav
+./playpcm test.pcm
+```
