@@ -5,7 +5,7 @@ cd demo forld, use cmake to produce Makefile, and then use make commond to compi
 
 ## Content
 ### playfile
-Read a pcm/wav file, and send to data to PCM device for playback.  
+Read a pcm/wav file, and send to data to PCM device for playback. Every playback repeats three times, and sleep 3 seconds between each playing.  
 Using the cmd below to run the demo.  
 ```
 ./playpcm test.wav
