@@ -11,3 +11,7 @@ Using the cmd below to run the demo.
 ./playpcm test.wav
 ./playpcm test.pcm
 ```
+
+### duplexDemo
+There are two short demo, which show a full duplex usage of ALSA, meaning that the demo shows the action that audio capturing and speech playing meanwhile.  
+
